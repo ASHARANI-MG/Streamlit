@@ -1,0 +1,51 @@
+/* input[type="text"],input[type="email"],textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+} */
+
+/* Style the name and email inputs */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 6px; /* Decrease padding for name and email inputs */
+    font-size: 14px; /* Decrease font size for name and email inputs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+/* Style the message textarea */
+textarea {
+    width: 100%;
+    padding: 12px; /* Increase padding for the textarea */
+    font-size: 16px; /* Increase font size for the textarea */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    background-color: #0056b3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the submit button on hover */
+button[type=submit]:hover {
+    background-color: #00b890;
+}
